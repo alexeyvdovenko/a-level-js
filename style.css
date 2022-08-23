@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial;
 }
 html {
     box-sizing: border-box;
@@ -76,6 +77,12 @@ a{
 .sidebar{
     display: none;
 }
+.card-title{
+    margin: 10px;
+}
+h2{
+    margin: 10px;
+}
 @media (min-width: 768px) {
     .sidebar{
         display: flex;
@@ -92,6 +99,13 @@ a{
         text-align: center;
         max-height: 50px;
         overflow: hidden;
+    }
+    .card-sidebar-img{
+        display: inline-block
+    }
+    .card-sidebar-images{
+        border-radius: 10px;
+        background: center;
     }
     .content{
         padding: 20px;
@@ -172,9 +186,6 @@ a{
     background-color: pink;
     margin: 0 auto 15px;
     padding: 10px;
-}
-.content>p{
-    text-align: center;
 }
 .card-images{
     width: 50px;
