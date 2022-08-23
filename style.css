@@ -110,6 +110,7 @@ h2{
     .content{
         padding: 20px;
         width: calc(100% - 420px);
+        cursor: grab;
     }
     .nav-list{
         display: flex;
