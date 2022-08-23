@@ -270,9 +270,17 @@ a.btn{
     height: 3px;
     left: 0;
     right: 0;
-
 }
-
-
+.content>#myVideo {
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: calc(100% - 420px);
+    min-height: 100%;
+    opacity: 0.6;
+    z-index: -1;
+    left: 0;
+}
 
 
